@@ -249,6 +249,7 @@ li {
     height: 169px;
     left: 135px;
     top: 801px;
+    z-index: 5;
 }
 
 #card1 {
@@ -260,6 +261,11 @@ li {
     background: #FAFAFA;
     border-radius: 7px;
 }
+
+#card1:hover {
+    background: rgb(231, 231, 231);
+}
+
 #card2 {
     position: absolute;
     width: 239px;
@@ -270,6 +276,10 @@ li {
     border-radius: 7px;
 }
 
+#card2:hover {
+    background: rgb(231, 231, 231);
+}
+
 #card3 {
     position: absolute;
     width: 239px;
@@ -278,6 +288,10 @@ li {
     top: 0px;
     background: #FAFAFA;
     border-radius: 7px;
+}
+
+#card3:hover {
+    background: rgb(231, 231, 231);
 }
 
 #frame1 {
