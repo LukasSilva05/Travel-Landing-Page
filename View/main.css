@@ -79,14 +79,23 @@ body {
     cursor: pointer;
 }
 
+#btn:hover {
+    background: linear-gradient(93.7deg, #eed661be 21.68%, #ffbaafd3 79.85%);
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
     color: #FFFFFF;
 }
 
+a:hover {
+    color: rgb(231, 231, 231);
+}
+
 li {
     display: inline;
+    position: absolute;
 }
 
 #menu {
@@ -101,3 +110,135 @@ li {
     line-height: 30px;
 }
 
+#about {
+    /* position: absolute; */
+    left: 120.67px;
+}
+
+#contact {
+    /* position: absolute; */
+    left: 241.34px;
+}
+
+#blog {
+    /* position: absolute; */
+    left: 382.62px;
+}
+
+#videos {
+    /* position: absolute; */
+    left: 485.63px;
+}
+
+#phone {
+    position: absolute;
+    width: 202px;
+    height: 23.05px;
+    left: 1102px;
+    top: 63px;
+}
+
+#numero {
+    position: absolute;
+    width: 169px;
+    height: 23.05px;
+    left: 33px;
+    top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19.2045px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+#numero:hover {
+    color: rgb(231, 231, 231);
+}
+
+#phone-icon {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 0px;
+    top: 3px;
+}
+
+#imagens {
+    position: absolute;
+    width: 794px;
+    height: 795px;
+    left: 646px;
+    top: 191px;
+}
+
+#nuvem1 {
+    position: absolute;
+    width: 468px;
+    height: 195px;
+    left: 326px;
+    top: 0px;
+    z-index: 1;
+}
+
+#nuvem2 {
+    position: absolute;
+    width: 468px;
+    height: 195px;
+    left: 17px;
+    top: 285px;
+    z-index: 1;
+}
+
+#palm {
+    position: absolute;
+    /* width: 765px;
+    height: 765px;
+    left: 0px;
+    top: 0px; */
+    z-index: 2;
+}
+
+#elipse {
+    position: absolute;
+    width: 646px;
+    height: 646px;
+    left: 74px;
+    top: 28px;
+    background: #FFFFFF;
+    opacity: 0.8;
+    filter: blur(250px);
+    z-index: 0;
+}
+
+#social {
+    position: absolute;
+    width: 130px;
+    height: 22px;
+    left: 1175px;
+    top: 843px;
+    z-index: 3;
+}
+
+#facebook-icon {
+    position: absolute;
+    width: 10.75px;
+    height: 21.29px;
+    left: 0px;
+    top: 0px;
+}
+
+#twitter-icon {
+    position: absolute;
+    width: 21.29px;
+    height: 17.43px;
+    left: 48.75px;
+    top: 2.13px;
+}
+
+#linkedin-icon {
+    position: absolute;
+    left: 83.11%;
+    right: 0.52%;
+    top: 0%;
+    bottom: 3.24%;
+}
